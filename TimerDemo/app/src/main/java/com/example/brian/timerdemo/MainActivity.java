@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             countDownTimer.cancel();
             startButton.setText("Start");
             counterIsActive = false;
-            pepeImageView.setAlpha(1);
+            pepeImageView.setAlpha(255);
             if (videoPlaying){
                 videoView.stopPlayback();
                 videoPlaying = false;
